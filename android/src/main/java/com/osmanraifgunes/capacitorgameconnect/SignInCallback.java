@@ -1,4 +1,4 @@
-package com.openforge.capacitorgameconnect;
+package com.osmanraifgunes.capacitorgameconnect;
 
 public interface SignInCallback {
     void success();

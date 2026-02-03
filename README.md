@@ -2,8 +2,7 @@
   <img src="https://s3.amazonaws.com/tw-inlineimages/467579/0/0/ff47c124a5732bf549b43532a7ac19e1.png"/>
 </p>
 <p align="center">
-  <a href="http://www.openforge.io/">Official Website</a> |
-  <a href="https://www.youtube.com/@OpenForge/videos">Subscribe to Youtube Channel</a> 
+  <a href="http://osmanraifgunes.github.io/">Official Website</a> |
 </p>
 
 # Introduction
@@ -13,7 +12,8 @@ Capacitor plugin for connecting and using services by Apple Game Center and Goog
 
 | Capacitor Version | Support Status |
 |-------------------|:--------------:|
-| Capacitor v7      |    TESTING     | 
+| Capacitor v8      |       ✅       |
+| Capacitor v7      |       ✅       | 
 | Capacitor v6      |       ✅       | 
 | Capacitor v5      |       ✅       |
 | Capacitor v4      |       ✅       |
@@ -25,7 +25,7 @@ Capacitor plugin for connecting and using services by Apple Game Center and Goog
 
 ## Maintainers
 
-The lovely folks at OpenForge! Feel free to tag any of the following:
+The lovely folks! Feel free to tag any of the following:
 
 | Maintainer | Github |
 | ---------- | :----: |
@@ -37,15 +37,13 @@ The lovely folks at OpenForge! Feel free to tag any of the following:
 
 Checkout these existing Ionic/Angular/Capacitor mobile game with the plugin installed and integrated:
 
-- [Rock The Steps](https://github.com/openforge/rock-the-steps-app)
-- [OpenFarm](https://github.com/openforge/openfarm-puzzle-game)
 
 # Getting Started
 
 ## Install
 
 ```bash
-npm install @openforge/capacitor-game-connect
+npm install @osmanraifgunes/capacitor-game-connect
 npx cap sync
 ```
 
@@ -67,7 +65,9 @@ Then you need to set your Game Services Project ID in your `strings.xml` file in
 
 - Then on your `MainActivity.class` file you will need to import and register the plugin in your onCreate method:
 
-```ts
+```java
+import com.osmanraifgunes.capacitorgameconnect.CapacitorGameConnectPlugin;
+
 @Override
 public void onCreate(Bundle savedInstanceState) {
     registerPlugin(CapacitorGameConnectPlugin.class);

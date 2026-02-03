@@ -1,4 +1,4 @@
-package com.openforge.capacitorgameconnect;
+package com.osmanraifgunes.capacitorgameconnect;
 
 import android.content.Intent;
 
