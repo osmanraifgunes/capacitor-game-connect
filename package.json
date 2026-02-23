@@ -1,6 +1,6 @@
 {
   "name": "@osmanraifgunes/capacitor-game-connect",
-  "version": "8.0.0",
+  "version": "8.1.0",
   "description": "Capacitor plugin for Apple Game Center and Google Play Game Services (Capacitor 8)",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
